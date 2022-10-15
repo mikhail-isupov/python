@@ -4,7 +4,8 @@ number = int(input('Введите целое число: '))
 
 output_str = ''
 
-while number or not output_str:
+while number:
+
 
     digit = number % 2
 
