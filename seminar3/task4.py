@@ -11,6 +11,7 @@ while number:
 
     output_str = str(digit) + output_str
 
-    number = number // 2
+    number //= 2
+
 
 print('Двоичное представление числа: ', output_str)
