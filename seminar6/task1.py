@@ -1,7 +1,9 @@
 #Калькулятор арифметических выражений
 
-def calc(expression, index = [0]):
+def calc(expression, index=None):
 #Используется список для создания единого для всех вызовов функции счетчика текущей позиции
+    if index is None:
+        index = [0]
     number = []
     numbers = []
     operations = []
