@@ -5,7 +5,7 @@ def message(msg): #вывод однострочного сообщения
 
 def view_data(db): #Просмотр данных справочника
     header = ['id'] + db.record_fields
-    format_string = "{:15} "*len(header)
+    format_string = "{:15} " * len(header)
     print(format_string.format(*header))
     
     for record_id in sorted(db.data):
